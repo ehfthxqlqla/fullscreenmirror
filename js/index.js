@@ -82,7 +82,7 @@ window.addEventListener("keydown", function(e) {
     if (e.key.toLowerCase() === "f") {
         fullscreenVideo()
     } else if (e.key.toLocaleLowerCase() === "escape") {
-        document.exitFullscreen()
+        fullscreenVideo()
     }
 })
 
