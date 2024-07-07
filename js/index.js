@@ -113,7 +113,7 @@ window.addEventListener("keydown", function(e) {
 function flipVideo() {
     switch (flipped) {
         case true:
-            webcam.style.transform = `scaleX(0)`
+            webcam.style.transform = `none`
             webcam.style.filter = `none`
             flipped = false
             break
